@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Barlow+Semi+Condensed&family=Roboto:wght@300;400&display=swap');    
+
+.section-reset{
+   background-color: #F0F4F3!important;
+   min-height: 100vh;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+
+.section-reset .container .formulaire{
+    margin-top: 7%;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+.section-reset .container form{
+    margin-top: 8%;
+}
+.section-reset .container .formulaire label{
+    font-size: 16px;
+    color: #646161;
+    font-weight: 300;
+}
+.section-reset .container .formulaire input{
+    border-radius: 12px;
+    font-size: 18px;
+    height: 40px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    color: #646161 !important;
+}
+.section-reset .container .formulaire .btn-primary{
+    margin-bottom: 3%;
+    border-radius: 25px;
+    background-color: #e24f4f !important;
+    border-color: #e24f4f  !important;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.section-reset .container .formulaire .btn-primary:hover{
+    background-color: #e03131 !important;
+    border-color: #e03131  !important;
+    font-size: 18px;
+    color: white;
+    transition: 1.5s;
+}

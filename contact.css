@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'pourTitre';
+    src: url("../css/font/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'pourMintitre';
+        src: url("../css/font/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: 'pourPara';
+        src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+        }
+        #l5{
+            color: #e24f4f !important;
+            border-bottom: 1px solid #e24f4f !important;
+        }
+        body{
+            background-color: white !important;
+        }
+        /*poour la section header*/
+.alert-danger{
+    border-radius: 12px;
+    font-family: 'pourPara';
+    font-size: 15px;
+}
+.alert-success{
+    border-radius: 12px;
+    font-family: 'pourPara';
+    font-size: 15px;
+}
+.navbar{
+    background-color: #444444;
+}
+.navbar ul li{
+    margin-bottom: 4%;
+}
+/*pour la section1*/
+.section1 .container h3{
+    margin-top: 13%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 4%;
+    color: #646161;
+}
+.section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: 420px;
+}
+.section1 .container .form1:hover{
+    box-shadow: 1px 1px 7px #e24f4fa5;
+}
+.section1 .container .form1 h2{
+    font-family: 'pourMintitre';
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #646161;
+}
+.section1 .container .form1 select{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'pourPara';
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+}
+.section1 .container .form1 input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'pourPara';
+    font-size: 15px;
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+}
+.section1 .container .form1 label{
+    font-family: 'pourPara';
+    font-size: 15px;
+    color: #646161;
+}
+.section1 .container .form1 .btn-danger{
+    margin-top: 4%;
+    margin-bottom: 13%;
+    font-family: 'pourPara';
+    text-transform: uppercase;
+    background-color: #e24f4f !important;
+    border-color: #e24f4f  !important;
+    height: 40px;
+}
+/*pour le formulaire2*/
+.section1 .container .col-md-6{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    margin-left: 30px;
+    margin-bottom: 5%;
+    margin-top: 0px;
+}
+.section1 .container .col-md-6:hover{
+    box-shadow: 1px 1px 7px #e24f4fa5;
+}
+.section1 .container .col-md-6 h2{
+    margin-top: 4%;
+    font-family: 'pourMintitre';
+    font-size: 26px;
+    color: #e24f4f;
+}
+.section1 .container .col-md-6 p{
+    font-family: 'pourPara';
+    font-size: 17px;
+    color: #444444;
+}
+.section1 .container .col-md-6 h5{
+    font-family: 'pourMinTitre';
+    font-size: 18px;
+    color: #444444;
+}
+.section1 .container .col-md-6 hr{
+    opacity: 0.5;
+    color: #646161;
+    border: 1px solid;
+}
+.section1 .container .col-md-6  label{
+    font-size: 16px;
+    font-family: 'pourPara';
+    color: #444444;
+}
+.section1 .container .col-md-6 input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'pourPara';
+    font-size: 15px;
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+}
+.section1 .container .col-md-6 textarea{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'pourPara';
+    font-size: 15px;
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+}
+.section1 .container .col-md-6 .btn-danger{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'pourMinTitre';
+    text-transform: uppercase;
+    background-color: #e24f4f !important;
+    border-color: #e24f4f !important;
+    height: 40px;
+    font-size: 18px;
+}
+.section1 .carte{
+    border: none !important;
+}
+/*############################################################################################*/
+@media (min-width: 769px) and (max-width: 1500px) {
+   /*formulaire 1*/
+   .section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: 600px !important;
+    margin-bottom: 3%;
+    }
+    .section1 .container .form1 .btn-danger{
+        margin-top: 4%;
+        margin-bottom: 13%;
+        font-family: 'pourPara';
+        text-transform: uppercase;
+        background-color: #e24f4f !important;
+        border-color: #e24f4f  !important;
+        height: auto !important;
+    }
+     /*formulaire 2*/
+     .section1 .container .col-md-6{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        margin-left: 30px;
+        margin-bottom: 3%;
+        margin-top: 0px;
+        height: auto !important;
+    }
+}
+/*###################################################################################################*/
+@media (min-width: 481px) and (max-width: 768px) {
+   /*pour la section1*/
+.section1 .container h3{
+    margin-top: 24%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 5%;
+    color: #646161;
+    }
+    /*formulaire 1*/
+   .section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: auto !important;
+    margin-bottom: 3%;
+    margin-left: 12px;
+    }
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: #646161;
+    }
+     /*formulaire 2*/
+     .section1 .container .col-md-6{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        margin-left: 12px !important;
+        margin-bottom: 8%;
+        margin-top: 0px;
+        height: auto !important;
+    }
+}
+/*###################################################################################*/
+@media (min-width: 321px) and (max-width: 480px) {
+       /*pour la section1*/
+.section1 .container h3{
+    margin-top: 32%;
+    font-family: 'pourPara';
+    font-size: 21px;
+    margin-bottom: 6%;
+    color: #646161;
+    }
+    /*formulaire 1*/
+   .section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: auto !important;
+    margin-bottom: 3%;
+    margin-left: 12px;
+    }
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: #646161;
+    }
+     /*formulaire 2*/
+     .section1 .container .col-md-6{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        margin-left: 12px !important;
+        margin-bottom: 8%;
+        margin-top: 0px;
+        height: auto !important;
+    }
+}
+/*################################################################################*/
+@media (max-width: 320px) {
+           /*pour la section1*/
+.section1 .container h3{
+    margin-top: 48%;
+    font-family: 'pourPara';
+    font-size: 21px;
+    margin-bottom: 12%;
+    color: #646161;
+    }
+    /*formulaire 1*/
+   .section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: auto !important;
+    margin-bottom: 3%;
+    margin-left: 12px;
+    }
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: #646161;
+    }
+    .section1 .container .form1 .btn-danger{
+        margin-top: 4%;
+        font-family: 'pourPara';
+        font-size: 13px;
+        text-transform: uppercase;
+        background-color: #e24f4f !important;
+        border-color: #e24f4f  !important;
+        height: auto !important;
+    }
+     /*formulaire 2*/
+     .section1 .container .col-md-6{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        margin-left: 12px !important;
+        margin-bottom: 8%;
+        margin-top: 0px;
+        height: auto !important;
+    }
+    .section1 .container .col-md-6 h2{
+        margin-top: 4%;
+        font-family: 'pourMintitre';
+        font-size: 21px;
+        color: #e24f4f;
+    }
+    .section1 .container .col-md-6 .btn-danger{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-family: 'pourMinTitre';
+        text-transform: uppercase;
+        background-color: #e24f4f !important;
+        border-color: #e24f4f !important;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 230px){
+    .section1 .container h3{
+        margin-top: 92% !important;
+        font-family: 'pourPara';
+        font-size: 20px;
+        margin-bottom: 12%;
+        color: #646161;
+        }
+}

@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'pourTitre';
+    src: url("../css/font/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'pourMintitre';
+        src: url("../css/font/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: 'pourPara';
+        src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+        }
+        #l2{
+            color: #e24f4f !important;
+            border-bottom: 1px solid #e24f4f !important;
+        }
+        body{
+            background-color: white !important;
+        }
+        /*poour la section header*/
+.alert-success{
+    border-radius: 12px;
+    font-size: 17px;
+    font-family: 'pourPara';
+}
+.navbar{
+    background-color: #444444;
+    width: 100%;
+}
+.navbar ul li{
+    margin-bottom: 2%;
+}
+/*pour la section1*/
+.section1 .container h3{
+    margin-top: 13%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 4%;
+    color: #646161;
+}
+.section1 .container .form1{
+    border: 1px solid #CACACA;
+    box-shadow: 1px 1px 7px #6461617c;
+    height: 300px;
+}
+.section1 .container .form1:hover{
+    box-shadow: 1px 1px 7px #e24f4fa5;
+}
+.section1 .container .form1 h2{
+    font-family: 'pourMintitre';
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #646161;
+}
+.section1 .container .form1 select{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'pourPara';
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: #DDDDDD !important;
+    border-color: #DDDDDD !important;
+}
+
+.section1 .container .form1 .btn-danger{
+    margin-top: 4%;
+    margin-bottom: 13%;
+    font-family: 'pourPara';
+    text-transform: uppercase;
+    background-color: #e24f4f !important;
+    border-color: #e24f4f  !important;
+    height: 40px;
+}
+/*pour le formulaire2*/
+.section1 .container .col-md-8{
+    margin-left: 30px;
+    margin-bottom: 5%;
+    font-family: 'pourPara';
+    
+}
+.section1 .container .col-md-8 hr{
+    opacity: 0.5;
+    color: #646161;
+    border: 1px solid;
+}
+.section1 .container .col-md-8 h2{
+    font-family: 'pourMintitre';
+    font-size: 26px;
+    color: #e24f4f;
+}
+/*style card*/
+.section1 .container .col-md-8 .container .row-line .col-md-4{
+    margin-bottom: 6% !important;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card{
+    border:1px solid white;
+    background-color: white;
+    box-shadow: 2px 2px 12px #cecece;
+    width: 100% !important; 
+    height: 100% !important; 
+}
+
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card:hover{
+    box-shadow: 2px 2px 12px #6b6868;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card img{
+    transition: transform .5s;
+    height: 100% !important; 
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card img:hover{
+    transform: scale(0.85);
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card hr{
+    opacity: 0.5;
+    color: #cecece;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card .annee{
+   background-color: white;
+   border: 1px solid #d8d4d4da;
+   margin-bottom: 3%;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card .card-title{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #e24f4f;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card .prix{
+  font-size: 16px;
+  color: #646161;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card ul li{
+  font-size: 12px;
+  color: #646161;
+  display: inline;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card .btn-primary{
+    background-color: #e24f4f;
+    border-color: #e24f4f;
+    color: white;
+    font-family: 'pourPara';
+    font-size: 16px;
+}
+.section1 .container .col-md-8 .container .row-line .col-md-4 .card .btn-primary:hover{
+    background-color: #a52b2b;
+    border-color: #a52b2b;
+    color: white;
+}
+/*-------------------------------------------------------------------------------------------*/
+@media (min-width: 769px) and (max-width: 991px) {
+    /*pour la section1*/
+.section1 .container h3{
+    margin-top: 18%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 6%;
+    color: #646161;
+    }
+    /*pour la form1*/
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 18px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        color: #646161;
+    }
+    /*pour le formulaire2*/
+.section1 .container .col-md-8{
+    margin-left: 30px;
+    margin-bottom: 5%;
+    font-family: 'pourPara';
+}
+.section1 .container .col-md-8 hr{
+    opacity: 0.5;
+    color: #646161;
+    border: 1px solid;
+}
+.section1 .container .col-md-8 h2{
+    font-family: 'pourMintitre';
+    font-size: 24px;
+    color: #e24f4f;
+}
+}
+/*###################################################################################*/
+@media (min-width: 481px) and (max-width: 768px) {
+       /*pour la section1*/
+.section1 .container h3{
+    margin-top: 28% !important;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 10%;
+    color: #646161;
+    }
+    /*pour la form1*/
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 18px;
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+        text-align: center;
+        color: #646161;
+    }
+    .section1 .container .form1{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        height: auto !important;
+        margin-bottom: 10% !important;
+        margin-left: 16px !important;
+        margin-right: 22px !important;
+    }
+}
+/*##########################################################*/
+@media (min-width: 321px) and (max-width: 480px) {
+       /*pour la section1*/
+.section1 .container h3{
+    margin-top: 35% !important;
+    font-family: 'pourPara';
+    font-size: 20px;
+    margin-bottom: 13%;
+    color: #646161;
+    }
+    /*pour la form1*/
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 17px !important;
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+        text-align: center;
+        color: #646161;
+    }
+    .section1 .container .form1{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        height: auto !important;
+        margin-bottom: 10% !important;
+        margin-left: 10px !important;
+        margin-right: 22px !important;
+    }
+        /*pour le formulaire2*/
+.section1 .container .col-md-8{
+    margin-left: 0px !important;
+    margin-bottom: 5%;
+    font-family: 'pourPara';
+    margin-left: 3% !important;
+   
+}
+.section1 .container .col-md-8 h2{
+    font-family: 'pourMintitre';
+    font-size: 19px;
+    color: #e24f4f;
+}
+}
+/**************************************************************************************/
+@media (max-width: 320px) {
+         /*pour la section1*/
+.section1 .container h3{
+    margin-top: 35% !important;
+    font-family: 'pourPara';
+    font-size: 20px;
+    margin-bottom: 13%;
+    color: #646161;
+    }
+    /*pour la form1*/
+    .section1 .container .form1 h2{
+        font-family: 'pourMintitre';
+        font-size: 17px !important;
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+        text-align: center;
+        color: #646161;
+    }
+    .section1 .container .form1{
+        border: 1px solid #CACACA;
+        box-shadow: 1px 1px 7px #6461617c;
+        height: auto !important;
+        margin-bottom: 10% !important;
+        margin-left: 10px !important;
+        margin-right: 22px !important;
+    }
+        /*pour le formulaire2*/
+.section1 .container .col-md-8{
+    margin-left: 0px !important;
+    margin-bottom: 5%;
+    font-family: 'pourPara';
+    width: 100% !important;
+    margin-left: 10px !important;
+}
+.section1 .container .col-md-8 h2{
+    font-family: 'pourMintitre';
+    font-size: 19px;
+    color: #e24f4f;
+}
+}
+@media (max-width: 270px) {
+            /*pour la section1*/
+.section1 .container h3{
+    margin-top: 65% !important;
+    font-family: 'pourPara';
+    font-size: 20px;
+    margin-bottom: 15%;
+    color: #646161;
+    }
+}

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'pourTitre';
+    src: url("../css/font/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'pourMintitre';
+        src: url("../css/font/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: 'pourPara';
+        src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+        }
+.footer{
+    background-color: #DFDFDF;
+}
+.footer .col-md-4{
+    margin-top: 3%;
+    font-family: 'pourPara';
+}
+.footer .col-md-4,.col-1, .col-2{
+    margin-top: 3%;
+    font-family: 'pourPara';
+}
+.footer .col-md-4 h1{
+    text-transform: uppercase;
+    color: #e24f4f !important;
+    font-size: 20px;
+}
+.footer .col-md-4 p{
+    font-size: 16px;
+    color: #605e5e;
+}
+.footer .col-md-4 ul li{
+    display: block;
+    list-style-type: none;
+    margin-bottom: 6px;
+    font-size: 18px;
+    margin-left: -30px;
+}
+.footer .col-md-4 ul li a{
+    text-decoration: none;
+    color: #605e5e;
+}
+.footer .col-md-4 ul li a:hover{
+    text-decoration: underline;
+    color: #e24f4f;
+}
+/*pour la partie casque*/
+.footer .col-md-4 h2{
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    color: #605e5e;
+    font-size: 20px;
+}
+
+.footer .col-md-4 p a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #605e5e;
+}
+.footer .col-md-4 p a:hover{
+    text-decoration: underline;
+    color: #e24f4f;
+}
+.footer .liste ul li{
+    display: inline;
+    margin: 10px;
+}
+/*pour la partie email*/
+
+/*style pour la partie du bat après le hr*/
+.footer .col-md-3, .col-md-6{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'pourPara';
+}
+.footer .col-md-3 p{
+    font-size: 16px;
+}
+.footer .col-md-3 p a{
+    color: #605e5e;
+    text-decoration: none;
+}
+.footer .col-md-3 p a:hover{
+    color: #e24f4f;
+    text-decoration: underline;
+}
+.footer .col-md-6 p{
+    color: #605e5e;
+    font-family: 'pourPara';
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer .col-md-6 p a{
+    color: #e24f4f;
+    text-decoration: none;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    /*pour la partie casque*/
+    .footer .col-1{
+        margin-bottom: 12% !important;
+        margin-top: 12% !important;
+    }
+    .footer .col-1 h2{
+        text-transform: uppercase;
+        margin-bottom: 0px !important;
+        color: #605e5e;
+        font-size: 20px;
+        top: 0px !important;
+    }
+
+    .footer .col-1 p a{
+        font-size: 18px;
+        text-decoration: none;
+        color: #605e5e;
+    }
+    .footer .col-1 p a:hover{
+        text-decoration: underline;
+        color: #e24f4f;
+    }
+}
+@media (max-width: 340px) {
+    .footer .col-md-4 h2{
+        text-transform: uppercase;
+        margin-bottom: 3%;
+        color: #605e5e;
+        font-size: 18px;
+    }
+}

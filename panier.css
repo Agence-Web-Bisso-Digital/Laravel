@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'pourTitre';
+    src: url("../css/font/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'pourMintitre';
+        src: url("../css/font/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: 'pourPara';
+        src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+        }
+        #l2{
+            color: #e24f4f !important;
+            border-bottom: 1px solid #e24f4f !important;
+        }
+        body{
+            background-color: white !important;
+        }
+        /*poour la section header*/
+.alert-danger{
+    border-radius: 12px;
+    font-family: 'pourPara';
+    font-size: 15px;
+}
+.alert-success{
+    border-radius: 12px;
+    font-family: 'pourPara';
+    font-size: 15px;
+}
+.navbar{
+    background-color: #444444;
+}
+.navbar ul li{
+    margin-bottom: 4%;
+}
+/*pour la section1*/
+.section1 .container h3{
+    margin-top: 13%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+.section1 .container .col-md-8{
+margin-bottom: 10%;
+}
+table{
+    font-family: 'pourPara';
+    margin-top: 3%;
+}
+.section1 .container .col-md-8 table td{
+    font-size: 16px;
+}
+.section1 .container .col-md-8 table td ul li{
+    list-style-type: none;
+}
+.section1 .container .col-md-8 table .btn-primary{
+    background-color: #3AB45B ;
+    border-color: #3AB45B ;
+    font-size: 17px;
+}
+.section1 .container .col-md-8 table .btn-primary:hover{
+    background-color: #00BA33  ;
+    border-color: #00BA33  ;
+}
+/*###################################me style responsive####################################################*/
+@media (min-width: 769px) and (max-width: 991px) {
+    /*pour la section1*/
+.section1 .container h3{
+    margin-top: 20%;
+    font-family: 'pourPara';
+    font-size: 23px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+       /*pour la section1*/
+.section1 .container h3{
+    margin-top: 28%;
+    font-family: 'pourPara';
+    font-size: 20px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+}
+@media (min-width: 321px) and (max-width: 480px) {
+         /*pour la section1*/
+.section1 .container h3{
+    margin-top: 36%;
+    font-family: 'pourPara';
+    font-size: 18px;
+    margin-bottom: 2%;
+    color: #646161;
+}  
+table{
+    font-family: 'pourPara';
+    margin-top: 3%;
+   font-size: 14px;
+}
+.section1 .container .col-md-8 table .btn-primary{
+    background-color: #3AB45B ;
+    border-color: #3AB45B ;
+    font-size: 16px;
+}
+}
+@media (max-width: 320px) {
+            /*pour la section1*/
+.section1 .container h3{
+    margin-top: 45%;
+    font-family: 'pourPara';
+    font-size: 18px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+table{
+    font-family: 'pourPara';
+    margin-top: 3%;
+   font-size: 14px;
+}
+.section1 .container .col-md-8 table .btn-primary{
+    background-color: #3AB45B ;
+    border-color: #3AB45B ;
+    font-size: 16px;
+}
+}
+@media (max-width: 298px) {
+              /*pour la section1*/
+.section1 .container h3{
+    margin-top: 65%;
+    font-family: 'pourPara';
+    font-size: 16px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+}
+@media (max-width: 250px) {
+              /*pour la section1*/
+.section1 .container h3{
+    margin-top: 75%;
+    font-family: 'pourPara';
+    font-size: 16px;
+    margin-bottom: 2%;
+    color: #646161;
+}
+}
