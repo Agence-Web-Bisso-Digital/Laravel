@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'pourPara';
+    src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+    }
+.card{
+    margin-top: 1%;
+    font-family: 'pourPara' !important;
+    border-radius: 8px !important;
+    border: 1px solid white !important;
+    box-shadow: 1px 1px 12px #cfcfcfbb;
+    font-family: 'pourPara';
+}
+.card .card-title{
+    color: #2487C8;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.card .container  .col-md-2{
+    height: 15% !important;
+}
+.card .container  .col-md-2 .card:hover{
+    box-shadow: 1px 1px 12px #403f3fbb !important;
+    border-color: none;
+}
+.card .container  .col-md-2 .card .fa{
+    font-size: 45px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.card .container  .col-md-2 .card .card-body h5{
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card .container  .col-md-2 .a{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #007BFF;
+    height: auto;
+    color: white !important;
+}
+.card .container  .col-md-2 .b{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #FFC107;
+    height: auto;
+    color: white !important;
+}
+.card .container  .col-md-2 .c{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #27A243;
+    height: auto;
+    color: white !important;
+}
+.card .container  .col-md-2 .d{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #D53343;
+    height: auto;
+    color: white !important;
+}

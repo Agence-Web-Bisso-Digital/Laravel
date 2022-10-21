@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#mere{
+    
+    /*height:450px;*/
+    margin-top: 10px;
+}
+
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+    background-color:white  !important;
+    
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px 30px;
+}
+
+
+@media (min-width: 768px) {
+#sidebar-wrapper {
+  margin-left: 0;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -15rem;
+}
+}
+
+
+.sidebar li .submenu{ 
+list-style: none; 
+margin: 0; 
+padding: 0; 
+padding-left: 5px; 
+padding-right: 1rem;
+}
+/*style menu left*/
+#wrapper #sidebar-wrapper .list-group ul li{
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+#wrapper #sidebar-wrapper .list-group ul li:hover{
+    background-color: #dae3e73c ;
+}
+#wrapper #sidebar-wrapper .list-group .dropdown-toggle{
+    position: relative;
+}
+
+#wrapper #sidebar-wrapper .list-group  .collapse a:hover{
+    background-color: #c2bec885 !important;
+}
+#wrapper ul li a{
+    color: white;
+    font-size: 16px;
+}
+/*Style dropdown menu connexion*/
+#wrapper #page-content-wrapper  ul li a{
+    font-size: 15px;
+    color: #2c2e2d!important;
+}
+#wrapper #page-content-wrapper ul li .dropdown-menu  a{
+    background-color: #FFFFFF !important;
+    color: #2c2e2d!important;
+    border-color: none;
+    border: 0px solid none;
+}
+#wrapper #page-content-wrapper ul li .dropdown-menu a:hover{
+    background-color: #186584 !important;
+    color: white !important;
+}

@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'pourPara';
+    src: url("../css/font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+    }
+    .card .alert-success{
+        border-radius: 18px;
+        font-size: 14px !important;
+        transition: 2s;
+    }
+.card{
+    margin-top: 1%;
+    font-family: 'pourPara' !important;
+    border-radius: 8px !important;
+    border: 1px solid white !important;
+    box-shadow: 1px 1px 12px #cfcfcfbb;
+}
+.card table{
+    font-size: 15px !important;
+}
+.card .alert-success{
+    border-radius: 18px;
+    font-size: 14px !important;
+    transition: 2s;
+}
+.card .card-title{
+    color: #2487C8;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.card .btn-primary{
+    background-color: #2487C8  !important;
+    border-color: #2487C8;
+    border-radius: 8px;
+    font-style: 16px !important;
+}
+
+.card .btn-dark{
+    background-color: #505050  !important;
+    border-color: #505050  !important ;
+    border-radius: 8px;
+    font-style: 16px !important;
+}
+.card .btn-dark:hover{
+    background-color:#353735 !important;
+    border-color:#353735 !important ;
+    border-radius: 8px;
+    font-style: 16px !important;
+}
+.card .btn-primary:hover{
+    background-color: #2487C8  !important;
+    border-color: #2487C8;
+    border-radius: 8px;
+}
+.card .table .btn-danger{
+    background-color: #F2173F   !important;
+    border-color: #F2173F  !important;
+    border-radius: 8px;
+}
+.card .table .btn-danger:hover{
+    background-color: #e20931    !important;
+    border-color: #e20931   !important;
+    border-radius: 8px;
+}
+.card .table .btn-secondary{
+    background-color: #07B293    !important;
+    border-color: #07B293   !important;
+    border-radius: 8px;
+}
+.card .table .btn-success{
+    background-color: #15BF34     !important;
+    border-color: #15BF34    !important;
+    border-radius: 8px;
+}
+.card .table .btn-success:hover{
+    background-color: #02851A      !important;
+    border-color: #02851A     !important;
+    border-radius: 8px;
+}
+.card .table .btn-secondary:hover{
+    background-color: #01826B      !important;
+    border-color: #01826B     !important;
+    border-radius: 8px;
+}
+.card .btn-primary:hover{
+    background-color: #1F96E3  !important;
+    border-color: #1F96E3 !important;
+    border-radius: 8px;
+}
+.card .table{
+    border-radius: 12px;
+    margin-top: 2% !important;
+    border: 1px solid white;
+    box-shadow: 1px 1px 12px #cfcfcf97;
+}
+
+/*style formulaie*/
+
+.card .container .col-md-8 input{
+    border-radius: 8px;
+    margin-bottom: 2%;
+    color: #212122;
+    font-size: 15px;
+}
+.card .container .col-md-8 select{
+    border-radius: 8px;
+    margin-bottom: 2%;
+    color: #5d5c5d;
+    font-size: 15px;
+}
+.card .container .col-md-8 label{
+    font-size: 15px;
+    color: #5d5c5d;
+    font-size: 15px;
+}
+.card .container .col-md-8 .btn-primary{
+    background-color: #2487C8  !important;
+    border-color: #2487C8;
+    border-radius: 8px;
+    margin-top: 2% !important;
+    margin-bottom: 2%;
+}
+.card .container .col-md-8 .btn-primary:hover{
+    background-color: #0763a0  !important;
+    border-color: #0763a0 ;
+    border-radius: 8px;
+    font-style: 16px !important;
+}
+.card .container .col-md-8 form{
+    margin-top: 5%;
+}
+
+.card .container{
+    box-shadow: 1px 1px 12px #cfcfcfbb;
+    border-radius: 12px;
+}
+.card .alert-danger{
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.card .container .col-md-4 h1{
+    font-size: 22px;
+    margin-top: 8% !important;
+    color: #1F96E3 !important;
+}
+.card .container .col-md-4 ul li{
+    list-style-type: none;
+}
+.card .container .col-md-7 h1{
+    font-size: 22px;
+    margin-top: 4%;
+    color: #1F96E3 !important;
+}
