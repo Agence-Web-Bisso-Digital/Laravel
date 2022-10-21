@@ -1,0 +1,39 @@
+@extends('home')
+@section('card')
+<link rel="stylesheet" href="{{ asset('css/style_dashboard/card.css')}}" />
+@endsection
+@section('content')
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Dashboard/commission</h5>
+    <a href="{{route('ajouter_commission')}}"><button class="btn btn-primary"><i class="fa fa-floppy-o" aria-hidden="true"></i> Enregistrer</button></a><br><br>
+    @if(session()->has('status'))
+        <div class="alert alert-success">
+                        {{ session()->get('status') }}
+        </div>
+    @endif
+    <table id="example" class="table table-borderless table-hover" style="width:100%">
+        <thead>
+            <tr>
+                <th>Agence partenaire</th>
+                <th>Montant</th>
+                <th>Pourcentage</th>
+                <th>Action</th> 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach($commiss as $key=>$value)
+            <tr>
+                <td>{{$value->id_partenaire}}</td>
+                <td>{{$value->montant}} Dhs</td>
+                <td>{{$value->pourcentage}}</td>
+                <td><a href="{{route('delete_commission',['id'=>$value->id])}}"><button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button></a>  
+                <a href="{{route('update_commission',['id'=>$value->id])}}"><button type="button" class="btn btn-secondary"><i class="fa fa-pencil" aria-hidden="true"></i></button></a>    
+            </td>
+            </tr>
+            @endforeach
+    </table>
+   
+  </div>
+</div>
+@endsection
